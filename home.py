@@ -17,15 +17,16 @@ def home_page():
         st.write("###")
         st.write("***Final Project - Dec 2025***")
         st.write("**Author:** <your name> ")
+        st.write("**Author:** <Adelina Gjoka>")
         st.write("**Instructor:** [Enric Domingo](https://github.com/enricd)")
 
 
     # ----- Top title -----
-    st.html("""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Python</h1></div>""")  # TODO: Add your name
+    st.html("""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is Adelina!!!</h1></div>""")  # TODO: Add your name
 
 
     # ----- Profile image file -----
-    profile_image_file_path = "profile.png"       # TODO: Upload your profile image to the same folder as this script and update this if it has a different name
+    profile_image_file_path = "myphoto.jpg"       # TODO: Upload your profile image to the same folder as this script and update this if it has a different name
 
     with open(profile_image_file_path, "rb") as img_file:
         img = "data:image/png;base64," + base64.b64encode(img_file.read()).decode()
@@ -40,7 +41,7 @@ def home_page():
 
 
     # ----- Personal title or short description -----
-    current_role = "Current Role and/or Studies or Description"   # TODO: Change this
+    current_role = "Data Enthusiast | Always Exploring, Building, and Learning"   # TODO: Change this
 
     st.html(f"""<div style="text-align: center;"><h4><i>{current_role}</i></h4></div>""")
 
@@ -52,17 +53,17 @@ def home_page():
 
     # TODO: Modify and adapt the following lines to your info, you can add or remove some details if you want
     st.write("""
-    - 🧑‍💻 I am a <Current Role and/or Studies> 
+    - 🧑‍💻 I am a currently studying Big Data & Analytics at EAE Business School 
 
-    - 🛩️ prev: <Previous Experience, Background or Studies>
+    - 🛩️ prev: <Business Intelligence Specialist>
 
-    - ❤️ <Your Passion and/or Interests>
+    - ❤️ <Photography  & Content Creating>
 
     - 🤖 <Your Personal Projects>
 
-    - 🏂 <Your Hobbies>
+    - 🏂 <Swimming & Reading>
 
-    - 📫 How to reach me: <Your Email>
+    - 📫 How to reach me: <adelinagjoka11@gmail.com>
 
     - 🏠 Barcelona
     """)
