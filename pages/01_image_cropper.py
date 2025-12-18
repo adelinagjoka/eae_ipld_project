@@ -63,7 +63,7 @@ else:
 
 # TODO: Ex. 1.3: Crop the image array img_arr using the crop_min_h, crop_max_h, crop_min_w and crop_max_w values -----
 
-crop_arr = None  # TODO: Generate the crop array into a new variable, use NumPy array slicing
+crop_arr = img_arr[crop_min_h:crop_max_h, crop_min_w:crop_max_w] # TODO: Generate the crop array into a new variable, use NumPy array slicing
 
 
 # ----- Displaying the cropped image and creating a download button to download the image -----
