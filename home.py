@@ -16,8 +16,8 @@ def home_page():
         st.header("Introduction to Programming Languages for Data")
         st.write("###")
         st.write("***Final Project - Dec 2025***")
-        st.write("**Author:** <your name> ")
-        st.write("**Author:** <Adelina Gjoka>")
+        st.write("**Author:** Adelina Gjoka ")
+        
         st.write("**Instructor:** [Enric Domingo](https://github.com/enricd)")
 
 
@@ -58,8 +58,6 @@ def home_page():
     - 🛩️ prev: <Business Intelligence Specialist>
 
     - ❤️ <Photography  & Content Creating>
-
-    - 🤖 <Your Personal Projects>
 
     - 🏂 <Swimming & Reading>
 
