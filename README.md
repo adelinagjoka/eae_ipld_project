@@ -8,7 +8,7 @@ Final project for the course **Introduction to Programming Languages for Data**,
 
 🔗 **Live app:** [adelinagjoka94.streamlit.app](https://adelinagjoka94.streamlit.app/)
 
-![App overview](ipld_project_overview.png)
+
 
 ---
 
