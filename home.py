@@ -13,9 +13,9 @@ def home_page():
     # ----- Left menu -----
     with st.sidebar:
         st.image("eae_img.png", width=200)
-        st.header("Introduction to Programming Languages for Data")
+        st.header("")
         st.write("###")
-        st.write("***Final Project - Dec 2025***")
+        st.write("*** Dec 2025***")
         st.write("**Author:** Adelina Gjoka ")
         
         st.write("**Instructor:** [Enric Domingo](https://github.com/enricd)")
