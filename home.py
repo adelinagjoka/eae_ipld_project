@@ -55,13 +55,13 @@ def home_page():
     st.write("""
     - 🧑‍💻 I am a currently studying Big Data & Analytics at EAE Business School 
 
-    - 🛩️ prev: <Business Intelligence Specialist>
+    - 🛩️ prev: Business Intelligence Specialist
 
-    - ❤️ <Photography  & Content Creating>
+    - ❤️ Photography  & Content Creating
 
-    - 🏂 <Swimming & Reading>
+    - 🏂 Swimming & Reading
 
-    - 📫 How to reach me: <adelinagjoka11@gmail.com>
+    - 📫 How to reach me: adelinagjoka11@gmail.com
 
     - 🏠 Barcelona
     """)
